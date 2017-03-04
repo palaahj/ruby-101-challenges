@@ -5,3 +5,5 @@ require_relative "build_name.rb"
   # 1. ask the user for his first, middle and last names
   # 2. call the build_name method with the user's names
   # 3. greet him using his full name
+"what is your full name".gets.chomp
+puts build_name
